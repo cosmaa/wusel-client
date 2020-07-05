@@ -1,7 +1,10 @@
 <template>
-    <div class="wish_list_container" id="my_wish_list">
-        <Wish v-for="(wish,index) in myJson" :key="index" v-bind="{wish: wish.wish}"/>
-    </div>
+
+        <div class="wish_list_container" >
+            <Wish v-for="(wish,index) in myJson" :key="index" v-bind="{wish: wish.wish}"/>
+        </div>
+
+
 </template>
 
 <script>

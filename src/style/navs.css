@@ -1,0 +1,11 @@
+.ref_text {
+    color: #990096;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ref_text:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}

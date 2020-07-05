@@ -1,7 +1,9 @@
 <template>
-    <div class="content" >
-        <h4>Wishlist</h4>
-        <WishList/>
+    <div class="container">
+        <div class="content">
+            <h4>Wishlist</h4>
+            <WishList/>
+        </div>
     </div>
 </template>
 

@@ -1,4 +1,5 @@
 <template>
+    <div class="container">
     <div class='content' style="text-align: left;" ><h1>Impressum</h1>
         <p>Angaben gemäß § 5 TMG</p>
         <p>Constanze Maaß<br>
@@ -42,6 +43,7 @@
         </p><br>
         Website Impressum erstellt durch <a href="https://www.impressum-generator.de">impressum-generator.de</a> von der <a
                 href="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach</a>
+    </div>
     </div>
 </template>
 

@@ -6,21 +6,14 @@
 
 <script>
     export default {
-        name: 'Menu',
-        components: {},
+        name: "Footer",
         data() {
             return {
                 links: [
                     {
-                        name: 'Hello',
-                        url: '/',
-                        iconName: 'waves',
-                        open: false
-                    },
-                    {
-                        name: 'Wish-List',
-                        url: '/wishes',
-                        iconName: 'directions_boat',
+                        name: 'Imprssum',
+                        url: '/impressum',
+                        iconName: 'share',
                         open: false
                     }
                 ]
@@ -28,3 +21,7 @@
         }
     }
 </script>
+
+<style scoped>
+
+</style>
