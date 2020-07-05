@@ -1,0 +1,31 @@
+body.page {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    line-height: 1.2;
+    background-color: black;
+    font-family: "Fira Code",
+    "Source Code Pro",
+    "Fira Code Online",
+    "Source-Han-Sans-Medium",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Heiti SC",
+    "Microsoft YaHei",
+    "WenQuanYi Micro Hei",
+    Helvetica,
+    Tahoma,
+    "Ubuntu Condensed",
+    sans-serif;
+}
+
+.div_bg {
+    top: -4px;
+    height: 100%;
+    width: 100% !important;
+    text-align: left;
+    position: absolute;
+}
