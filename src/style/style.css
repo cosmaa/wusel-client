@@ -1,4 +1,4 @@
-app {
+.app {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -22,25 +22,6 @@ app {
     sans-serif;
 }
 
-
-
-
-.container {
-    margin: 0 auto;
-    top: 15px;
-    height: 90%;
-    width: 84%;
-    max-width: 1240px;
-    position: relative;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.72);
-    border: 1px solid #990096;
-    overflow-y: auto;
-    overflow-x: hidden;
-
-}
-
-
 .content {
     position: relative;
     overflow: auto;
@@ -54,7 +35,8 @@ app {
 }
 
 
-div.header {
+
+header.header {
     position: relative;
     text-align: center;
     margin: 0 auto;
@@ -94,7 +76,7 @@ a.header_btn {
 
 p.btn_text {
     font-style: normal;
-    margin: 0;
+    padding: 5px;
     color: #990096;
     display: inline-block;
     text-transform: capitalize;
@@ -127,13 +109,5 @@ p.btn_text {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: blue;
-}
-
-.rainbow {
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
-    background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
 }
 

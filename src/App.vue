@@ -1,21 +1,31 @@
 <template>
-  <div >
-    <section >
-      <router-view />
-    </section>
-  </div>
+    <div id='app'>
+        <Background/>
+        <Menu/>
+        <div class="container">
+        <router-view/>
+        </div>
+    </div>
 </template>
 
 <script>
-export default {
-  name: 'App',
-  components: {
+    import Menu from "./components/Menu";
+    import Background from "./components/Background";
 
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            Background,
+            Menu
+        }
+    }
+
 </script>
 
 <style>
-@import 'style/style.css';
-@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+    @import 'style/style.css';
+    @import 'style/hello.css';
+    @import 'style/wishes.css';
+    @import url('https://fonts.googleapis.com/css?family=Material+Icons');
 </style>
+

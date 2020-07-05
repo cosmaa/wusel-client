@@ -29,3 +29,17 @@ body.page {
     text-align: left;
     position: absolute;
 }
+.container {
+    margin: 0 auto;
+    top: 15px;
+    height: 90%;
+    width: 84%;
+    max-width: 1240px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.72);
+    border: 1px solid #990096;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}

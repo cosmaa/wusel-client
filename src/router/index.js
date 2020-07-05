@@ -1,26 +1,26 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home'
-import InfraStructure from '../views/InfraStructure'
-import Resources from '../views/Resources'
+import Hello from '../views/Hello'
+import Impressum from '../views/Impressum'
+import Wishes from '../views/Wishes'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    name: 'hello',
+    component: Hello
   },
   {
-    path: '/resources',
-    name: 'resources',
-    component: Resources
+    path: '/wishes',
+    name: 'wishes',
+    component: Wishes
   },
   {
-    path: '/infra',
-    name: 'infra',
-    component: InfraStructure
+    path: '/impressum',
+    name: 'imprssum',
+    component: Impressum
   }
 ]
 
