@@ -1,4 +1,4 @@
-body.page {
+.page {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -22,13 +22,6 @@ body.page {
     sans-serif;
 }
 
-.div_bg {
-    top: -4px;
-    height: 100%;
-    width: 100% !important;
-    text-align: left;
-    position: absolute;
-}
 .container {
     margin: 0 auto;
     top: 15px;

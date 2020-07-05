@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <div class="header">
         <nav class="nav_bar">
             <ul>
             <span v-for="(link, index) in links" :key="index">
@@ -13,7 +13,7 @@
             </span>
             </ul>
         </nav>
-    </header>
+    </div>
 </template>
 
 <script>

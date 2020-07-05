@@ -1,18 +1,5 @@
 [
   {
-    "wish": "test1",
-    "desicions": [
-      "text",
-      "text"
-    ],
-    "tasks": [
-      {
-        "task": "do something",
-        "status": "done"
-      }
-    ]
-  },
-  {
     "wish": "make hello.page wuselig"
   },
   {
@@ -37,10 +24,10 @@
     "wish": "load Wishlist from database"
   },
   {
-    "wish": "&#128034; database backup "
+    "wish": "database backup "
   },
   {
-    "wish": "&#128373;&#127999; security"
+    "wish": " security"
   },
   {
     "wish": "Handel todo is \"done\" with date"
@@ -58,7 +45,7 @@
     "wish": "create Wishlist for Visitors"
   },
   {
-    "wish": "create comment-space for implementation-hints and orthography-hints &#128540; "
+    "wish": "create comment-space for implementation-hints and orthography-hints "
   },
   {
     "wish": "add authorization to change the status from cards"

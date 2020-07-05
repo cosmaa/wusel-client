@@ -1,10 +1,21 @@
 <template>
-    
+    <div class="wish_list_container" id="my_wish_list">
+        <Wish v-for="(wish,index) in myJson" :key="index" v-bind="{wish: wish.wish}"/>
+    </div>
 </template>
 
 <script>
+    import json from '../data/wishes.json'
+    import Wish from "./Wish";
+
     export default {
-        name: "WishList"
+        name: "WishList",
+        components: {Wish},
+        data() {
+            return {
+                myJson: json
+            }
+        }
     }
 </script>
 

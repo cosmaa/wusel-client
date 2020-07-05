@@ -1,17 +1,8 @@
-
-#wish_search_input {
-    background-repeat: no-repeat;
-    width: 50%;
-    text-align: center;
-    font-size: 16px;
-    padding: 5px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-}
-
 .wish_list_container {
     position: relative;
-    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 10px;
     box-sizing: border-box;
     height: 100%;
@@ -21,23 +12,29 @@
 
 .wish_card {
     position: relative;
-    float: left;
     border-radius: 5px;
     border: 1px solid #ddd;
     background-color: none;
-    text-align: center;
-    max-width: 200px;
-    width: 30%;
-    margin-right: 5px;
+    margin: 3px;
     font-size: 14px;
-    display: block;
+    cursor: pointer;
+}
+
+.wish_card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.wish_card_text {
+    margin: 10px;
 }
 
 .wish_card:hover {
     background-color: #990096;
-    text-color: #dddddd;
+    color: #dddddd;
 }
 
 .wish_card_container {
-    padding: 2px 16px;
 }

@@ -23,9 +23,7 @@
 </script>
 
 <style>
-    @import 'style/style.css';
-    @import 'style/hello.css';
-    @import 'style/wishes.css';
+    @import 'style/master.css';
     @import url('https://fonts.googleapis.com/css?family=Material+Icons');
 </style>
 
