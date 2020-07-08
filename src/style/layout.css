@@ -6,6 +6,7 @@
     padding: 0;
     text-align: center;
     line-height: 1.2;
+    overflow: hidden;
     background-color: black;
     font-family: "Fira Code",
     "Source Code Pro",
@@ -49,7 +50,7 @@
 .container {
     position: relative;
     overflow-y: auto;
-    text-align: center;
+    text-align: left;
     height: 100%;
     width: 84%;
     padding: 10px;

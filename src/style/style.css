@@ -6,7 +6,10 @@
     position: absolute;
 }
 
-
+.description_text_wish_list {
+    color: white;
+    font-size: 18px;
+}
 
 /* width */
 ::-webkit-scrollbar {

@@ -4,7 +4,6 @@
     border: 1px solid #ddd;
     background-color: none;
     margin: 3px;
-    font-size: 14px;
     cursor: pointer;
 }
 
@@ -17,6 +16,7 @@
 
 .wish_card_text {
     margin: 10px;
+    font-size: 18px;
 }
 
 .wish_card:hover {

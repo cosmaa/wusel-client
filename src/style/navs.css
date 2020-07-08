@@ -18,3 +18,14 @@
 .menu_button:active {
     transform: translateY(4px);
 }
+
+.language_button {
+    margin-left: 5px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.72);
+    color: #990096;
+    border: 1px solid #990096;
+}
