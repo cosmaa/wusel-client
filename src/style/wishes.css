@@ -7,6 +7,37 @@
     cursor: pointer;
 }
 
+.wish_card:hover {
+    background-color: #990096;
+    color: #dddddd;
+}
+.card_active {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: cadetblue;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.card_active:hover {
+    background-color: darkblue;
+}
+
+.card_done {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: darkslategrey;
+    margin: 3px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card_done:hover {
+    background-color: darkslateblue;
+}
+
 .wish_card_title {
     display: flex;
     justify-content: center;
@@ -19,10 +50,7 @@
     font-size: 18px;
 }
 
-.wish_card:hover {
-    background-color: #990096;
-    color: #dddddd;
-}
+
 
 .wish_card_container {
 }

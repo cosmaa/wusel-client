@@ -1,6 +1,6 @@
 [
   {
-    "wish": "make hello.page wuselig",
+    "wish": "make hello wuselig",
     "status": "done"
   },
   {
@@ -9,11 +9,7 @@
   },
   {
     "wish": "mark in Navbar the current displayed Content",
-    "status": "active"
-  },
-  {
-    "wish": "manage Session for saving visitor-name",
-    "status": ""
+    "status": "done"
   },
   {
     "wish": "manage Session for saving visitor-name",
@@ -24,15 +20,27 @@
     "status": ""
   },
   {
+    "wish": "create sidebar for displaying wish tasks",
+    "status": "active"
+  },
+  {
     "wish": "currently fulfilling \"Wish\"",
     "status": ""
   },
   {
     "wish": "Display Wishlist as Cards",
-    "status": ""
+    "status": "done"
   },
   {
     "wish": "load Wishlist from database",
+    "status": ""
+  },
+  {
+    "wish": "add Bachelor-area",
+    "status": "done"
+  },
+  {
+    "wish": "add Bachelor_todos",
     "status": ""
   },
   {
@@ -45,11 +53,19 @@
   },
   {
     "wish": " security",
-    "status": ""
+    "status": "done"
   },
   {
-    "wish": "Handel todo is \"done\" with date",
-    "status": ""
+    "wish": " deployment",
+    "status": "done"
+  },
+  {
+    "wish": "Frontend with Vue",
+    "status": "done"
+  },
+  {
+    "wish": "Handel todo is \"done\"",
+    "status": "done"
   },
   {
     "wish": "add to done-Cards the picture of \"how-to\"",
