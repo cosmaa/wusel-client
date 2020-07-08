@@ -1,0 +1,39 @@
+
+
+.menu_button {
+    margin-left: 5px;
+    font-size: 16px;
+    padding: 2px 12px;
+    border-radius: 4px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.72);
+    color: #990096;
+
+}
+
+.menu_button:hover {
+    background-color: #990096;
+    color: white;
+}
+
+.menu_button:active {
+    transform: translateY(4px);
+}
+
+.menu_title {
+    float: right;
+    color: #dddddd;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.menu_input {
+    float: right;
+    color: #dddddd;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.menu_buttons{
+    float: left;
+}

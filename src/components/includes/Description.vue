@@ -1,12 +1,14 @@
 <template>
-  <div class="content">
-    <span class="wusel_h4">{{title}}</span>
-    <button class="language_button" @click="change_language()">{{ value }}</button>
-    <p>
-      <span id="text_wish_list" class="description_text_wish_list" v-html="text">
+  <div class="description_div">
+    <button v-if="isHidden" class="show_button" @click="isHidden = false">{{ title }}</button>
+    <div v-if="!isHidden" class="description_content">
+      <button class="hide_button" @click="isHidden = true">X</button>
+      <span class="description_title">{{ title }}</span>
+      <button class="language_button" @click="change_language()">{{ value }}</button>
+      <span class="description_text" v-html="text">
         {{ text }}
       </span>
-    </p>
+    </div>
   </div>
 </template>
 
@@ -21,7 +23,8 @@ export default {
   data() {
     return {
       value: 'de?',
-      text: this.description_en
+      text: this.description_en,
+      isHidden: true
     }
   },
   computed() {

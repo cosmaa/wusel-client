@@ -1,27 +1,15 @@
 
-.description_text_wish_list {
-    color: #dddddd;
-    font-size: 18px;
-}
-
-.menu_title {
-    color: #dddddd;
-    font-size: 18px;
-    padding: 5px;
-}
-
-.menu_input {
-    float: right;
-    color: #dddddd;
-    font-size: 14px;
-    padding: 5px;
-}
-
-.menu_buttons{
-    float: left;
-}
 
 .wusel_h4 {
     color: #990096;
     font-size: 18px;
+}
+
+
+.rainbow {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    background-image: gradient(linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }

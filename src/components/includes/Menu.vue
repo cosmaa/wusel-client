@@ -3,12 +3,13 @@
     <span class="menu_buttons">
       <button v-for="button in buttons" :key="button.name" class="menu_button" @click="change_main_content(button, $event)">{{ button.name }}</button>
     </span>
-    <span
-class="menu_title"
-      >Welcome<span class="rainbow">{{ name }}</span
-      >, to <span class="rainbow">WUSEL.SPACE</span>
+
+    <span class="menu_input" v-if="!hide_input"> Name: <input v-model="input_name" type="text" @keyup.enter="hide_input = true" @input="checkExist($event)"/></span>
+
+    <span class="menu_title"
+    >Welcome<span class="rainbow">{{ name }}</span
+    >, to <span class="rainbow">WUSEL.SPACE</span>
     </span>
-    <span class="menu_input"> Name: <input v-model="form.name" type="text" @input="checkExist($event)"/></span>
   </div>
 </template>
 
@@ -20,8 +21,9 @@ export default {
   components: {},
   data() {
     return {
-      form: { name: '' },
+      input_name: '',
       name: '',
+      hide_input: false,
       buttons: [
         {
           name: 'Hello'

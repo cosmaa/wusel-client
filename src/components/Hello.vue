@@ -1,7 +1,9 @@
 <template>
   <div class="container">
+  <div class="descriptions_container">
     <Description v-bind="{ description_de: wusel_de, description_en: wusel_en, title: 'WHAT\'S WUSEL.SPACE ?' }" />
     <Description v-bind="{ description_de: de, description_en: en, title: 'WHY ENGLISH ?' }" />
+  </div>
   </div>
 </template>
 

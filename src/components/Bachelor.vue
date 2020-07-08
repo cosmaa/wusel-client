@@ -1,7 +1,9 @@
 <template>
   <div class="container">
+    <div class="descriptions_container">
     <Description v-bind="{ description_de: de, title: 'BACHELOR THESIS IN PROGRESS'}" />
-  </div>
+    </div>
+    </div>
 </template>
 
 <script>

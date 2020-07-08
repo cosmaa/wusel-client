@@ -1,11 +1,14 @@
 <template>
   <div class="container" style="text-align: center">
-    <Description v-bind="{ description_de: de, description_en: en, title: 'HÄÄÄ WISHLIST ?' }" />
+
     <div class="wish_list_container">
       <Wish v-for="wish in examples" :key="wish.wish" v-bind="{ wish: wish }" />
     </div>
     <div class="wish_list_container">
       <Wish v-for="(wish, index) in wishes_json" :key="index" v-bind="{ wish: wish }" />
+    </div>
+    <div class="descriptions_container">
+      <Description v-bind="{ description_de: de, description_en: en, title: 'HÄÄÄ WISHLIST ?' }" />
     </div>
   </div>
 </template>
