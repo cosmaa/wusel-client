@@ -1,31 +1,27 @@
 <template>
   <div class="container" style="text-align: center">
-
     <div class="wish_list_container">
       <Wish v-for="wish in examples" :key="wish.wish" v-bind="{ wish: wish }" />
     </div>
     <div class="wish_list_container">
       <Wish v-for="(wish, index) in wishes_json" :key="index" v-bind="{ wish: wish }" />
     </div>
-    <div class="descriptions_container">
-      <Description v-bind="{ description_de: de, description_en: en, title: 'HÄÄÄ WISHLIST ?' }" />
-    </div>
+
   </div>
 </template>
 
 <script>
 import wishes_json from '../../data/wishes.json'
-import texts_json from '../../data/texts.json'
-import Wish from './includes/Wish'
-import Description from './includes/Description'
+
+import Wish from './content/Wish'
+
 
 export default {
   name: 'WishList',
-  components: { Description, Wish },
+  components: {  Wish },
   data() {
     return {
-      en: texts_json.wish_en,
-      de: texts_json.wish_de,
+
       wishes_json: wishes_json,
       examples: [
         {

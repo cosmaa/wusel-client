@@ -4,6 +4,7 @@
       <Menu v-model="component_selected" />
     </div>
     <div class="main_container">
+      <LeftSidebar />
       <Hello v-if="component_selected === 'Hello'" />
       <WishList v-if="component_selected === 'Wish-List'" />
       <Impressum v-if="component_selected === 'Impressum'" />
@@ -16,17 +17,18 @@
 </template>
 
 <script>
-import Footer from '../components/includes/Footer'
-import Menu from '../components/includes/Menu'
+import Footer from '../components/panels/Footer'
+import Menu from '../components/panels/Menu'
 import Hello from '../components/Hello'
 import WishList from '../components/WishList'
 import { eventBus } from '../main'
 import Impressum from '../components/Impressum'
 import Bachelor from '../components/Bachelor'
+import LeftSidebar from '../components/panels/LeftSidebar'
 
 export default {
   name: 'Landing',
-  components: { Bachelor, Impressum, WishList, Hello, Menu, Footer },
+  components: { LeftSidebar, Bachelor, Impressum, WishList, Hello, Menu, Footer },
   data() {
     return {
       component_selected: 'Hello'

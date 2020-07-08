@@ -5,9 +5,7 @@
     text-align: left;
     position: absolute;
 }
-input {
-    max-width: 100px;
-}
+
 /* width */
 ::-webkit-scrollbar {
     width: 4px;

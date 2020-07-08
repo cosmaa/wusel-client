@@ -15,6 +15,7 @@
     border-radius: 5px;
     border: 1px solid #ddd;
     background-color: none;
+    width: 200px;
     margin: 3px;
     cursor: pointer;
 }
@@ -27,7 +28,7 @@
     position: relative;
     border-radius: 5px;
     border: 1px solid #ddd;
-    background-color: cadetblue;
+    background-color: darkblue;
     margin: 3px;
     cursor: pointer;
 }

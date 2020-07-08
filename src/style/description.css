@@ -1,9 +1,8 @@
 
 .descriptions_container {
-    position: fixed;
-    bottom: 80px;
+    position: relative;
+    display: block;
     overflow-y: auto;
-    text-align: left;
     height: auto;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0);
@@ -11,10 +10,6 @@
 }
 
 .description_div {
-    width: auto;
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
     height: 100%;
     background: rgba(0, 0, 0, 0) ;
 
@@ -28,6 +23,7 @@
     height: 100%;
     border-radius: 5px;
     box-sizing: border-box;
+    border: 1pt dotted #990096;
     color: #dddddd;
     background: rgba(0, 0, 0, 0.80)  ;
 
@@ -38,21 +34,17 @@
 
 .description_title{
     color: #dddddd;
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px;
 }
 
 .description_text {
     display: block;
     padding: 10px;
-    margin: 0 auto;
-    max-width: 300px;
     background: rgba(0, 0, 0, 0);
     color: #dddddd;
-    font-size: 14px;
+    font-size: 18px;
 }
-
-
 
 /*Buttons*/
 
@@ -78,8 +70,9 @@
 }
 
 .show_button {
-    margin: 1px;
+    margin: 3px;
     font-size: 16px;
+    width: 95%;
     padding: 2px 12px;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.72);
