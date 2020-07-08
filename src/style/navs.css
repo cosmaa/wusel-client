@@ -20,14 +20,16 @@
 }
 
 .language_button {
-    margin-left: 5px;
+    margin: 5px;
     font-size: 16px;
     padding: 10px;
+    float: right;
     border-radius: 50%;
     width: 50px;
     background-color: rgba(0, 0, 0, 0.72);
     color: #990096;
     border: 1px solid #990096;
+
 }
 
 .language_button:hover {

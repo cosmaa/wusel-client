@@ -7,6 +7,7 @@
       <Hello v-if="component_selected === 'Hello'" />
       <WishList v-if="component_selected === 'Wish-List'" />
       <Impressum v-if="component_selected === 'Impressum'" />
+      <Bachelor v-if="component_selected === 'Bachelor'" />
     </div>
     <div class="footer">
       <Footer />
@@ -21,10 +22,11 @@ import Hello from '../components/Hello'
 import WishList from '../components/WishList'
 import { eventBus } from '../main'
 import Impressum from '../components/Impressum'
+import Bachelor from '../components/Bachelor'
 
 export default {
   name: 'Landing',
-  components: { Impressum, WishList, Hello, Menu, Footer },
+  components: { Bachelor, Impressum, WishList, Hello, Menu, Footer },
   data() {
     return {
       component_selected: 'Hello'

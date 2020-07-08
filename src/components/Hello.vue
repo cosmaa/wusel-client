@@ -1,23 +1,25 @@
 <template>
   <div class="container">
-    <div class="content">
-      <h1>
-        Welcome<span class="rainbow">{{ name }}</span
-        >, to <span class="rainbow">WUSEL.SPACE</span>
-      </h1>
-      Name: <input v-model="form.name" type="text" @input="checkExist($event)" />
-      <!--Todo Submit button for sign in-->
-    </div>
+    <Description v-bind="{ description_de: wusel_de, description_en: wusel_en, title: 'WHAT\'S WUSEL.SPACE ?' }" />
+    <Description v-bind="{ description_de: de, description_en: en, title: 'WHY ENGLISH ?' }" />
   </div>
 </template>
 
 <script>
+import Description from './includes/Description'
+import texts_json from '../../data/texts.json'
+
 export default {
   name: 'Hello',
+  components: { Description },
   data() {
     return {
       form: { name: '' },
-      name: ''
+      name: '',
+      en: texts_json.hello_text_en,
+      de: texts_json.hello_text_de,
+      wusel_en: texts_json.wusel_en,
+      wusel_de: texts_json.wusel_de
     }
   },
   methods: {

@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Background />
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import Background from './components/includes/Background'
 export default {
   name: 'App',
   components: {
-    Background,
+    Background
   }
 }
 </script>

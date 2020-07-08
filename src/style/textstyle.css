@@ -4,7 +4,24 @@
     font-size: 18px;
 }
 
+.menu_title {
+    color: #dddddd;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.menu_input {
+    float: right;
+    color: #dddddd;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.menu_buttons{
+    float: left;
+}
+
 .wusel_h4 {
     color: #990096;
-    font-size: 24px;
+    font-size: 18px;
 }

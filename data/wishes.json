@@ -1,65 +1,90 @@
 [
   {
-    "wish": "make hello.page wuselig"
+    "wish": "make hello.page wuselig",
+    "status": "done"
   },
   {
-    "wish": "mark in Navbar the current displayed Content"
+    "wish": "make wusel-color selectable",
+    "status": ""
   },
   {
-    "wish": "manage Session for saving visitor-name"
+    "wish": "mark in Navbar the current displayed Content",
+    "status": "active"
   },
   {
-    "wish": "manage Session for saving visitor-name"
+    "wish": "manage Session for saving visitor-name",
+    "status": ""
   },
   {
-    "wish": "saving and display visitors who enter their name"
+    "wish": "manage Session for saving visitor-name",
+    "status": ""
   },
   {
-    "wish": "currently fulfilling \"Wish\""
+    "wish": "saving and display visitors who enter their name",
+    "status": ""
   },
   {
-    "wish": "Display Wishlist as Cards"
+    "wish": "currently fulfilling \"Wish\"",
+    "status": ""
   },
   {
-    "wish": "load Wishlist from database"
+    "wish": "Display Wishlist as Cards",
+    "status": ""
   },
   {
-    "wish": "database backup "
+    "wish": "load Wishlist from database",
+    "status": ""
   },
   {
-    "wish": "make deployment with github and portainer API "
+    "wish": "database backup ",
+    "status": ""
   },
   {
-    "wish": " security"
+    "wish": "make deployment with github and portainer API ",
+    "status": ""
   },
   {
-    "wish": "Handel todo is \"done\" with date"
+    "wish": " security",
+    "status": ""
   },
   {
-    "wish": "add to done-Cards the picture of \"how-to\""
+    "wish": "Handel todo is \"done\" with date",
+    "status": ""
   },
   {
-    "wish": "add graph database (neo4j)"
+    "wish": "add to done-Cards the picture of \"how-to\"",
+    "status": ""
   },
   {
-    "wish": "implement like button for prioritize the Wishes "
+    "wish": "add graph database (neo4j)",
+    "status": ""
   },
   {
-    "wish": "create Wishlist for Visitors"
+    "wish": "implement like button for prioritize the Wishes ",
+    "status": ""
   },
   {
-    "wish": "create comment-space for implementation-hints and orthography-hints "
+    "wish": "create Wishlist for Visitors",
+    "status": ""
   },
   {
-    "wish": "add authorization to change the status from cards"
+    "wish": "create comment-space for implementation-hints and orthography-hints ",
+    "status": ""
   },
   {
-    "wish": "add footer for impressum"
+    "wish": "add authorization to change the status from cards",
+    "status": ""
   },
   {
-    "wish": "add Maximal Wishlist item size"
+    "wish": "add footer for impressum",
+    "status": ""
   },
   {
-    "wish": "add Wishlist Backlog "
+    "wish": "add Maximal Wishlist item size",
+    "status": ""
+  },
+  {
+    "wish": "add Wishlist Backlog ",
+    "status": ""
   }
 ]

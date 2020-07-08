@@ -4,8 +4,8 @@ function resolve(dir) {
 }
 
 module.exports = {
-  outputDir: '../wusel-landing/app/templates/',
-  assetsDir: '../static',
+  // outputDir: '../wusel-landing/app/templates/',
+  // assetsDir: '../static',
   chainWebpack: config => {
     config.module
       .rule('vue')
