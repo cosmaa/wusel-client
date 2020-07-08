@@ -4,6 +4,27 @@ function resolve(dir) {
 }
 
 module.exports = {
+  outputDir: '../wusel-landing/app/templates/',
+  assetsDir: '../static',
+  chainWebpack: config => {
+    config.module
+      .rule('vue')
+      .use('vue-loader')
+      .tap(options => {
+        return options
+      })
+    config.module
+      .rule('md')
+      .test(/\.md/)
+      .use('vue-loader')
+      .loader('vue-loader')
+      .end()
+      .use('vue-markdown-loader')
+      .loader('vue-markdown-loader/lib/markdown-compiler')
+      .options({
+        raw: true
+      })
+  },
   configureWebpack: config => {
     // Copy data directory into build
     // copy-webpack-plugin is a dependency of Vue Cli
@@ -17,18 +38,5 @@ module.exports = {
         }
       ])
     )
-  },
-  chainWebpack: config => {
-    config.module
-      .rule('md')
-      .test(/\.md/)
-      .use('vue-loader')
-      .loader('vue-loader')
-      .end()
-      .use('vue-markdown-loader')
-      .loader('vue-markdown-loader/lib/markdown-compiler')
-      .options({
-        raw: true
-      })
   }
 }

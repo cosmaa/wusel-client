@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    import WishList from "../components/WishList";
+    import WishList from "../WishList";
 
     export default {
         name: "Wishes",

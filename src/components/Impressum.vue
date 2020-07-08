@@ -52,7 +52,3 @@
         name: 'Impressum'
     }
 </script>
-
-<style scoped>
-
-</style>
