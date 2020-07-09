@@ -1,0 +1,18 @@
+div.side_banner_div{
+    position: relative;
+    display: inline-block;
+    float: left;
+
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.vertical_side_banner {
+    position: absolute;
+    right: 100%;
+    width: auto;
+    margin: 0 auto;
+    white-space: nowrap;
+    transform: rotate(270deg) scale(5);
+    transform-origin: right top;
+}

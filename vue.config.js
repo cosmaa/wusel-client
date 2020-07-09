@@ -4,8 +4,9 @@ function resolve(dir) {
 }
 
 module.exports = {
-  // outputDir: '../wusel-landing/app/templates/',
-  // assetsDir: '../static',
+  outputDir: '../wusel-landing/app/templates/',
+  assetsDir: '../static',
+
   chainWebpack: config => {
     config.module
       .rule('vue')
@@ -24,6 +25,11 @@ module.exports = {
       .options({
         raw: true
       })
+    config.module
+      .rule('images')
+      .use('url-loader')
+      .loader('url-loader')
+      .tap(options => Object.assign(options, { limit: 10240 }))
   },
   configureWebpack: config => {
     // Copy data directory into build

@@ -6,10 +6,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'vue-d3-sunburst'
 
+
+require('./assets/css/master.css')
+
 Vue.use(IconsPlugin)
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 export const eventBus = new Vue()
+
 
 new Vue({
   router,

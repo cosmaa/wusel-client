@@ -17,6 +17,5 @@ export default {
 </script>
 
 <style>
-@import 'master.css';
 @import url('https://fonts.googleapis.com/css?family=Material+Icons');
 </style>

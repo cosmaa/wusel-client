@@ -2,6 +2,7 @@
 .descriptions_container {
     position: relative;
     display: block;
+    margin: 0;
     overflow-y: auto;
     height: auto;
     box-sizing: border-box;
@@ -11,6 +12,8 @@
 
 .description_div {
     height: 100%;
+    margin: 0;
+    overflow: hidden;
     background: rgba(0, 0, 0, 0) ;
 
 }
@@ -18,7 +21,6 @@
 .description_content {
     position: relative;
     display: block;
-    margin: 5px;
     text-align: center;
     height: 100%;
     border-radius: 5px;
@@ -33,9 +35,8 @@
 /*text*/
 
 .description_title{
-    color: #dddddd;
-    font-size: 18px;
-    margin: 10px;
+    color:#990096;
+    padding: 2px;
 }
 
 .description_text {
@@ -43,7 +44,7 @@
     padding: 10px;
     background: rgba(0, 0, 0, 0);
     color: #dddddd;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Buttons*/
@@ -71,9 +72,9 @@
 
 .show_button {
     margin: 3px;
-    font-size: 16px;
+    font-size: 14px;
     width: 95%;
-    padding: 2px 12px;
+    padding: 1px;
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0.72);
     color: #990096;

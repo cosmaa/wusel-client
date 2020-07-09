@@ -15,7 +15,7 @@
     border-radius: 5px;
     border: 1px solid #ddd;
     background-color: none;
-    width: 200px;
+    width: auto;
     margin: 3px;
     cursor: pointer;
 }
@@ -60,7 +60,7 @@
 
 .wish_card_text {
     margin: 10px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 

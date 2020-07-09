@@ -1,16 +1,22 @@
 <template>
-  <div class="container">
-    Hallo
+  <div class="main_container">
+    <div class="side_content">
+      <Descriptions :descriptions="texts.hello.descriptions" />
+    </div>
   </div>
 </template>
 
 <script>
+import texts_json from '../../data/texts.json'
+import Descriptions from './content/Descriptions'
 
 export default {
   name: 'Hello',
-  components: {},
+  components: { Descriptions },
   data() {
-    return {}
+    return {
+      texts: texts_json
+    }
   }
 }
 </script>

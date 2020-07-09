@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="overflow: hidden">
+  <div class="menu_container" >
     <button v-for="button in buttons" :key="button.name" class="menu_button" @click="change_main_content(button, $event)">{{ button.name }}</button>
   </div>
 </template>

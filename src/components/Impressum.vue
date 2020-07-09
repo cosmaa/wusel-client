@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="main_container">
     <div class="content" style="text-align: left;">
       <h1>Impressum</h1>
       <p>Angaben gemäß § 5 TMG</p>

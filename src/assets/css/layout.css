@@ -23,7 +23,7 @@
     sans-serif;
 }
 
-.header {
+.header_div {
     position: relative;
     width: 100%;
     height: 60px;
@@ -31,14 +31,14 @@
     top: 15px;
 }
 
-.main_container {
+.main_div {
     position: absolute;
     top: 80px;
     bottom: 80px;
     width: 100%;
 }
 
-.footer {
+.footer_div {
     position: fixed;
     bottom: 15px;
     height: 60px;
@@ -47,14 +47,14 @@
 
 }
 
-.container {
+.main_container {
     position: absolute;
     overflow-y: auto;
     float: left;
     width: auto;
     text-align: center;
-    left: 20%;
-    right: 20%;
+    left: 210px;
+    right: 100px;
     height: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -67,11 +67,23 @@
     position: relative;
     float: left;
     text-align: center;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: auto;
-    left: 15px;
-    width: 18%;
+    left: 100px;
+    width: 100px;
     height: 100%;
+    box-sizing: border-box;
+}
+
+.menu_container {
+    position: absolute;
+    overflow-y: auto;
+    float: left;
+    text-align: center;
+    left: 100px;
+    right: 100px;
+    height: 100%;
+    padding: 10px;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.60);
     border: 2px solid #990096;
@@ -84,6 +96,21 @@
     margin: 5px;
     box-sizing: border-box;
     height: auto;
+    background: rgba(0, 0, 0, 0) ;
+    border: 1px dashed #990096;
+    color: #dddddd;
+}
+
+.side_content {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    height: 98%;
+    width: 20%;
     background: rgba(0, 0, 0, 0) ;
     border: 1px dashed #990096;
     color: #dddddd;
