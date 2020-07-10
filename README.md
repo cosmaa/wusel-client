@@ -1,14 +1,24 @@
-# this is the frontend client of wusel-space
+# hello-world
 
-##run service local
-####install node.js and npm 
+## Project setup
 ```
-sudo apt install nodejs 
-sudo apt install npm
-sudo npm install npm@latest -g
+yarn install
 ```
 
+### Compiles and hot-reloads for development
 ```
-npm install
-npm run serve
+yarn serve
 ```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

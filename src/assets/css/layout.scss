@@ -1,3 +1,6 @@
+$main_color: #990096;
+$text_color: #dddddd;
+
 .page {
     position: fixed;
     height: 100%;
@@ -8,19 +11,6 @@
     line-height: 1.2;
     overflow: hidden;
     background-color: black;
-    font-family: "Fira Code",
-    "Source Code Pro",
-    "Fira Code Online",
-    "Source-Han-Sans-Medium",
-    "PingFang SC",
-    "Hiragino Sans GB",
-    "Heiti SC",
-    "Microsoft YaHei",
-    "WenQuanYi Micro Hei",
-    Helvetica,
-    Tahoma,
-    "Ubuntu Condensed",
-    sans-serif;
 }
 
 .header_div {
@@ -59,7 +49,7 @@
     padding: 10px;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.60);
-    border: 2px solid #990096;
+    border: 2px solid $main_color;
 }
 
 
@@ -86,7 +76,7 @@
     padding: 10px;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.60);
-    border: 2px solid #990096;
+    border: 2px solid $main_color;
 }
 
 .content {
@@ -97,8 +87,8 @@
     box-sizing: border-box;
     height: auto;
     background: rgba(0, 0, 0, 0) ;
-    border: 1px dashed #990096;
-    color: #dddddd;
+    border: 1px dashed $main_color ;
+    color: $text_color;
 }
 
 .side_content {
@@ -112,6 +102,6 @@
     height: 98%;
     width: 20%;
     background: rgba(0, 0, 0, 0) ;
-    border: 1px dashed #990096;
-    color: #dddddd;
+    border: 1px dashed $main_color;
+    color: $text_color;
 }

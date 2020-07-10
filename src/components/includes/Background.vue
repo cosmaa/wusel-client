@@ -18,13 +18,14 @@ export default {
     var columns = c.width / font_size;
     var drops = [];
     for (var x = 0; x < columns; x++) drops[x] = 1;
-    for (var x = 0; x < 5; x++) txts += txts;
+    for (var y = 0; y < 5; y++) txts += txts;
     txts = txts.split("");
 
     function draw() {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, c.width, c.height);
-      ctx.fillStyle = "#990096";
+      ctx.fillStyle = "#1E8449";
+      // console.log("color: " , this.data().color)
       ctx.font = font_size + "px arial";
       for (var i = 0; i < drops.length; i++) {
         var text = txts[i];

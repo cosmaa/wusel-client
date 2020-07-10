@@ -1,29 +1,9 @@
 <template>
   <div class="main_container">
     <div class="banners-container">
-      <article
-        class="banner"
-        :style="{ 'background-image': 'url(' + wg + '})' }"
-      >
+      <article class="banner"  v-for="(image) in images" :key="image.pathShort"  :style="{ 'background-image': `url(${image.pathLong})` }" >
         <section class="banner-copy">
-          <h1>WG</h1>
-        </section>
-      </article>
-      <article
-        class="banner"
-        :style="{ 'background-image': 'url(' + lankow + '})' }"
-      >
-        <section class="banner-copy">
-          <h1>Lankow-Contest</h1>
-        </section>
-      </article>
-      <article
-        class="banner"
-        :style="{ 'background-image': 'url(' + ilohh + '})' }"
-        @click="print()"
-      >
-        <section class="banner-copy">
-          <h1>ILOHH</h1>
+          <h1>{{image.pathShort}}</h1>
         </section>
       </article>
     </div>
@@ -35,15 +15,16 @@ export default {
   name: "Pictures",
   data() {
     return {
-      lankow: "/img/20190914_202212.jpg",
-      wg: "/img/1540401105591.jpg",
-      ilohh: "<%= BASE_URL %>/img/1590061765652.jpg"
-    };
+      images: [],
+    }
+  },
+  mounted() {
+    this.importAll(require.context('@/assets/img/banner/', true, /\.jpg$/));
   },
   methods: {
-    print() {
-      console.log(this.ilohh);
-    }
-  }
+    importAll(r) {
+      r.keys().forEach(key => (this.images.push({ pathLong: r(key), pathShort: key })));
+    },
+  },
 };
 </script>
