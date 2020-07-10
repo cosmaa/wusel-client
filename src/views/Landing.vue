@@ -18,28 +18,37 @@
 </template>
 
 <script>
-import Footer from '../components/panels/Footer'
-import Menu from '../components/panels/Menu'
-import Hello from '../components/Hello'
-import WishList from '../components/WishList'
-import { eventBus } from '../main'
-import Impressum from '../components/Impressum'
-import Bachelor from '../components/Bachelor'
-import LeftSidebar from '../components/panels/LeftSidebar'
-import Pictures from '../components/Pictures'
+import Footer from "../components/panels/Footer";
+import Menu from "../components/panels/Menu";
+import Hello from "../components/Hello";
+import WishList from "../components/WishList";
+import { eventBus } from "../main";
+import Impressum from "../components/Impressum";
+import Bachelor from "../components/Bachelor";
+import LeftSidebar from "../components/panels/LeftSidebar";
+import Pictures from "../components/Pictures";
 
 export default {
-  name: 'Landing',
-  components: { Pictures, LeftSidebar, Bachelor, Impressum, WishList, Hello, Menu, Footer },
+  name: "Landing",
+  components: {
+    Pictures,
+    LeftSidebar,
+    Bachelor,
+    Impressum,
+    WishList,
+    Hello,
+    Menu,
+    Footer
+  },
   data() {
     return {
-      component_selected: 'Hello'
-    }
+      component_selected: "Hello"
+    };
   },
   created() {
-    eventBus.$on('change_main_content', data => {
-      this.component_selected = data.name
-    })
+    eventBus.$on("change_main_content", data => {
+      this.component_selected = data.name;
+    });
   }
-}
+};
 </script>

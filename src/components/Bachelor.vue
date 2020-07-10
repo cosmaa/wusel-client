@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import texts_json from '../../data/texts.json'
-import Descriptions from './content/Descriptions'
+import texts_json from "../../data/texts.json";
+import Descriptions from "./content/Descriptions";
 
 export default {
-  name: 'Bachelor',
+  name: "Bachelor",
   components: { Descriptions },
   data() {
     return {
       texts: texts_json
-    }
+    };
   }
-}
+};
 </script>

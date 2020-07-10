@@ -8,9 +8,11 @@
 
 <script>
 export default {
-  name: 'LeftSidebar',
-  data() {}
-}
+  name: "LeftSidebar",
+  data() {
+    return {};
+  }
+};
 </script>
 
 <style scoped></style>

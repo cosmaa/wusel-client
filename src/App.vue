@@ -6,16 +6,16 @@
 </template>
 
 <script>
-import Background from './components/includes/Background'
+import Background from "./components/includes/Background";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Background
   }
-}
+};
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");
 </style>
