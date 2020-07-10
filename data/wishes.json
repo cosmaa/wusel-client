@@ -1,0 +1,106 @@
+[
+  {
+    "wish": "make hello wuselig",
+    "status": "done"
+  },
+  {
+    "wish": "make wusel-color selectable",
+    "status": ""
+  },
+  {
+    "wish": "mark in Navbar the current displayed Content",
+    "status": "done"
+  },
+  {
+    "wish": "manage Session for saving visitor-name",
+    "status": ""
+  },
+  {
+    "wish": "saving and display visitors who enter their name",
+    "status": ""
+  },
+  {
+    "wish": "create sidebar for displaying wish tasks",
+    "status": "active"
+  },
+  {
+    "wish": "currently fulfilling \"Wish\"",
+    "status": ""
+  },
+  {
+    "wish": "Display Wishlist as Cards",
+    "status": "done"
+  },
+  {
+    "wish": "load Wishlist from database",
+    "status": ""
+  },
+  {
+    "wish": "add Bachelor-area",
+    "status": "done"
+  },
+  {
+    "wish": "add Bachelor_todos",
+    "status": ""
+  },
+  {
+    "wish": "database backup ",
+    "status": ""
+  },
+  {
+    "wish": "make deployment with github and portainer API ",
+    "status": ""
+  },
+  {
+    "wish": " security",
+    "status": "done"
+  },
+  {
+    "wish": " deployment",
+    "status": "done"
+  },
+  {
+    "wish": "Frontend with Vue",
+    "status": "done"
+  },
+  {
+    "wish": "Handel todo is \"done\"",
+    "status": "done"
+  },
+  {
+    "wish": "add to done-Cards the picture of \"how-to\"",
+    "status": ""
+  },
+  {
+    "wish": "add graph database (neo4j)",
+    "status": ""
+  },
+  {
+    "wish": "implement like button for prioritize the Wishes ",
+    "status": ""
+  },
+  {
+    "wish": "create Wishlist for Visitors",
+    "status": ""
+  },
+  {
+    "wish": "create comment-space for implementation-hints and orthography-hints ",
+    "status": ""
+  },
+  {
+    "wish": "add authorization to change the status from cards",
+    "status": ""
+  },
+  {
+    "wish": "add footer for impressum",
+    "status": ""
+  },
+  {
+    "wish": "add Maximal Wishlist item size",
+    "status": ""
+  },
+  {
+    "wish": "add Wishlist Backlog ",
+    "status": ""
+  }
+]
