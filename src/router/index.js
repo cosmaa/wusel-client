@@ -1,14 +1,14 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Hello from "../views/Landing";
+import Landing from "../views/Landing";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "hello",
-    component: Hello
+    name: "landing",
+    component: Landing
   }
 ];
 
