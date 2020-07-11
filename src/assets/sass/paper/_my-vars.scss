@@ -1,0 +1,21 @@
+$my_background_color: transparent;
+
+
+// COLORS -------------------------------------------
+
+$my_pink: #990096;
+$marker: #00ff02;
+$my_orange: $my_pink;
+$my_violet: #6002a5;
+
+// DISTS --------------------------------------------
+
+$my_spacing: 15px;
+$my_calc_width: calc(100% - (260px + #{$my_spacing}));
+
+
+// BORDERS --------------------------------------------
+
+$my_border_1: 1pt solid $my_orange;
+$my_border_2: 2pt solid $marker;
+$my_border_3: 4pt solid $my_violet;

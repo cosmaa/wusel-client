@@ -1,24 +1,44 @@
 <template>
-  <div id="app">
-    <Background />
-    <router-view />
+  <div :class="{'nav-open': $sidebar.showSidebar}">
+    <Background/>
+    <notifications></notifications>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Background from "./components/includes/Background";
-
+import Background from "./layout/dashboard/Background";
 export default {
-  name: "App",
-  components: {
-    Background
-  }
+  components: {Background}
 };
 </script>
 
 <style lang="scss">
-@import "assets/main.scss";
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
-@import url("https://fonts.googleapis.com/css?family=Material+Icons");
+.vue-notifyjs.notifications {
+  .alert {
+    z-index: 10000;
+  }
+  .list-move {
+    transition: transform 0.3s, opacity 0.4s;
+  }
+  .list-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .list-enter-active {
+    transition: transform 0.2s ease-in, opacity 0.4s ease-in;
+  }
+  .list-leave-active {
+    transition: transform 1s ease-out, opacity 0.4s ease-out;
+  }
+
+  .list-enter {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  .list-leave-to {
+    opacity: 0;
+    transform: scale(1.2, 0.7);
+  }
+}
 </style>

@@ -1,0 +1,136 @@
+{
+  "todos": [
+    {
+
+      "todo": "make hello wuselig",
+      "status": "done",
+      "date": "10.06.2020"
+    },
+    {
+      "todo": "make wusel-color selectable",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "mark in Navbar the current displayed Content",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "manage Session for saving visitor-name",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "saving and display visitors who enter their name",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "create sidebar for displaying todo tasks",
+      "status": "active",
+      "date": ""
+    },
+    {
+      "todo": "currently fulfilling \"todo\"",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "Display todolist as Cards",
+      "status": "done",
+      "date": ""
+    },
+    {
+      "todo": "load todolist from database",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "add Bachelor-area",
+      "status": "done",
+      "date": ""
+    },
+    {
+      "todo": "add Bachelor_todos",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "database backup ",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "make deployment with github and portainer API ",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": " security",
+      "status": "done",
+      "date": ""
+    },
+    {
+      "todo": " deployment",
+      "status": "done",
+      "date": ""
+    },
+    {
+      "todo": "Frontend with Vue",
+      "status": "done",
+      "date": ""
+    },
+    {
+      "todo": "Handel todo is \"done\"",
+      "status": "done",
+      "date": ""
+    },
+    {
+      "todo": "add to done-Cards the picture of \"how-to\"",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "add graph database (neo4j)",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "implement like button for prioritize the todoes ",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "create todolist for Visitors",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "create comment-space for implementation-hints and orthography-hints ",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "add authorization to change the status from cards",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "add footer for impressum",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "add Maximal todolist item size",
+      "status": "",
+      "date": ""
+    },
+    {
+      "todo": "add todolist Backlog ",
+      "status": "",
+      "date": ""
+    }
+  ]
+
+}

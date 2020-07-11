@@ -4,6 +4,7 @@ function resolve(dir) {
   return path.join(__dirname, dir);
 }
 module.exports = {
+  lintOnSave: false,
   publicPath: process.env.NODE_ENV === "production" ? "/static/" : "/",
   assetsDir: process.env.NODE_ENV === "production" ? "../static" : "",
   outputDir:
@@ -15,9 +16,7 @@ module.exports = {
     config.module
       .rule("vue")
       .use("vue-loader")
-      .tap(options => {
-        return options;
-      });
+      .tap(options => {});
   },
   configureWebpack: config => {
     // Copy data directory into build

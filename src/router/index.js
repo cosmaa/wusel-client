@@ -1,21 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Landing from "../views/Landing";
-
+import routes from "./routes";
 Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: "/",
-    name: "landing",
-    component: Landing
-  }
-];
-
+// configure router
 const router = new VueRouter({
-  mode: "history",
-  base: process.env.BASE_URL,
-  routes
+  routes, // short for routes: routes
+  linkActiveClass: "active"
 });
 
 export default router;

@@ -1,0 +1,48 @@
+{
+  "links": [
+    {
+      "to": "/hello",
+      "icon": "ti-crown",
+      "name": "Hello",
+      "hide": false
+    },
+    {
+      "to": "/user",
+      "icon": "ti-user",
+      "name": "User",
+      "hide": false
+    },
+    {
+      "to": "/todos",
+      "icon": "ti-view-list-alt",
+      "name": "Todo List",
+      "hide": false
+    },
+    {
+      "to": "/icons",
+      "icon": "ti-pencil-alt2",
+      "name": "Icons",
+      "hide": false
+    },
+    {
+      "to": "/maps",
+      "icon": "ti-map",
+      "name": "Map",
+      "hide": false
+    }
+  ],
+  "not_used": [
+    {
+      "to": "/notifications",
+      "icon": "ti-bell",
+      "name": "Notifications",
+      "hide": true
+    },
+    {
+      "to": "/typography",
+      "icon": "ti-text",
+      "name": "Typography",
+      "hide": true
+    }
+  ]
+}
