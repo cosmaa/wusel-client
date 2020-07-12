@@ -9,7 +9,7 @@
       <div class="logo">
         <a  class="simple-text">
             <div class="logo-img">
-                <img src="@/assets/img/stani.jpg" alt="">
+                <img src="@/assets/img/faces/stani.jpg" alt="">
             </div>
           <span class="rainbow">{{title}}</span>
 
@@ -44,7 +44,7 @@ export default {
     },
     backgroundColor: {
       type: String,
-      default: "black",
+      default: "white",
       validator: value => {
         let acceptedValues = ["white", "black", "darkblue"];
         return acceptedValues.indexOf(value) !== -1;

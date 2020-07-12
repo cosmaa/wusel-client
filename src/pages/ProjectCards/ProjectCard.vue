@@ -1,11 +1,11 @@
 <template>
-  <card class="card-user">
+  <card class="card-project">
     <div slot="image">
-      <img src="@/assets/img/graph.jpg" alt="...">
+      <img src="@/assets/img/backgrounds/graph.jpg" alt="...">
     </div>
     <div>
       <div class="author">
-        <img class="avatar" src="@/assets/img/graph-db-logo.png" alt="...">
+        <img class="avatar" src="@/assets/img/logos/graph-db-logo.png" alt="...">
         <h4 class="title">
           <br>
           <a  href="https://github.com/cosmaa" target="_blank">

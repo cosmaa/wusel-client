@@ -8,7 +8,7 @@
     },
     {
       "to": "/projects",
-      "icon": "ti-user",
+      "icon": "ti-rocket",
       "name": "Projects",
       "hide": false
     },

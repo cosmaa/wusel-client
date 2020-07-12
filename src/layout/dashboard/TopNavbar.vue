@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <span class="rainbow" style="font-size: 30px;" >{{routeName}}</span>
+      <span class="rainbow" style="font-size: 30px;" > {{routeName}}</span>
       <button class="navbar-toggler navbar-burger"
               type="button"
               @click="toggleSidebar"

@@ -21,42 +21,50 @@ const routes = [
       {
         path: "hello",
         name: "Hello",
-        component: Hello
+        component: Hello,
+        icon: "ti-rocket"
       },
       {
         path: "impressum",
         name: "Impressum",
-        component: Impressum
+        component: Impressum,
+        icon: "ti-rocket"
       },
       {
         path: "projects",
         name: "Projects",
-        component: Projects
+        component: Projects,
+        icon: "ti-rocket"
       },
       {
         path: "notifications",
         name: "notifications",
-        component: Notifications
+        component: Notifications,
+        icon: "ti-rocket"
       },
       {
         path: "icons",
         name: "icons",
-        component: Icons
+        component: Icons,
+        icon: "ti-rocket"
       },
       {
         path: "maps",
         name: "maps",
-        component: Maps
+        component: Maps,
+        icon: "ti-rocket"
       },
       {
         path: "typography",
         name: "typography",
-        component: Typography
+        component: Typography,
+        icon: "ti-rocket"
       },
       {
         path: "todos",
         name: "todos",
-        component: TableList
+        component: TableList,
+        icon: "ti-rocket"
       }
     ]
   },
