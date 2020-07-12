@@ -7,21 +7,15 @@
       "hide": false
     },
     {
-      "to": "/user",
+      "to": "/projects",
       "icon": "ti-user",
-      "name": "User",
+      "name": "Projects",
       "hide": false
     },
     {
       "to": "/todos",
       "icon": "ti-view-list-alt",
       "name": "Todo List",
-      "hide": false
-    },
-    {
-      "to": "/icons",
-      "icon": "ti-pencil-alt2",
-      "name": "Icons",
       "hide": false
     },
     {
@@ -32,6 +26,12 @@
     }
   ],
   "not_used": [
+    {
+      "to": "/icons",
+      "icon": "ti-pencil-alt2",
+      "name": "Icons",
+      "hide": false
+    },
     {
       "to": "/notifications",
       "icon": "ti-bell",

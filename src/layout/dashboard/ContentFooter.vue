@@ -11,8 +11,7 @@
       <div class="copyright d-flex flex-wrap">
         Coded with
         <i class="fa fa-heart heart"></i> by
-        <a href="https://github.com/cosmaa" target="_blank"> &nbsp; Stani</a>&nbsp;
-        &copy;  Designed by <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank"> Creative Tim.</a>
+        <a href="https://github.com/cosmaa" target="_blank"> &nbsp; Stani</a>
       </div>
     </div>
   </footer>

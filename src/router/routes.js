@@ -3,7 +3,6 @@ import DashboardLayout from "@/layout/dashboard/DashboardLayout.vue";
 import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
-import UserProfile from "@/pages/UserProfile.vue";
 import Notifications from "@/pages/Notifications.vue";
 import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
@@ -11,6 +10,7 @@ import Typography from "@/pages/Typography.vue";
 import TableList from "@/pages/TableList.vue";
 import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
+import Projects from "../pages/Projects";
 
 const routes = [
   {
@@ -29,9 +29,9 @@ const routes = [
         component: Impressum
       },
       {
-        path: "user",
-        name: "user",
-        component: UserProfile
+        path: "projects",
+        name: "Projects",
+        component: Projects
       },
       {
         path: "notifications",

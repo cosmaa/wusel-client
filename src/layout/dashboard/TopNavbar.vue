@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">{{routeName}}</a>
+      <span class="rainbow" style="font-size: 30px;" >{{routeName}}</span>
       <button class="navbar-toggler navbar-burger"
               type="button"
               @click="toggleSidebar"
@@ -11,6 +11,7 @@
         <span class="navbar-toggler-bar"></span>
         <span class="navbar-toggler-bar"></span>
       </button>
+
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">

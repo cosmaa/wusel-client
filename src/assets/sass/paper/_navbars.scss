@@ -266,7 +266,7 @@
     .open .nav-link:hover,
     .open .nav-link:focus{
       background-color: transparent;
-      color: $info-color;
+      color: $marker;
     }
 
     .navbar-toggler:hover,.navbar-toggler:focus {
@@ -365,7 +365,7 @@
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus{
-  color: #5e5e5e;
+  color: $my_orange;
 }
 .navbar-collapse.show{
   .navbar-nav{

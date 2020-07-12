@@ -1,8 +1,10 @@
-# hello-world
+# Wusel-client
 
 ## Project setup
 ```
 yarn install
+// ore
+npm install
 ```
 
 ### Compiles and hot-reloads for development

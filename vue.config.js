@@ -5,7 +5,7 @@ function resolve(dir) {
 }
 module.exports = {
   lintOnSave: false,
-  publicPath: process.env.NODE_ENV === "production" ? "/static/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/templates/" : "/",
   assetsDir: process.env.NODE_ENV === "production" ? "../static" : "",
   outputDir:
     process.env.NODE_ENV === "production"

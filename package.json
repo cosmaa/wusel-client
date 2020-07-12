@@ -5,7 +5,7 @@
   "scripts": {
     "build": "vue-cli-service build",
     "e2e": "node test/e2e/runner.js",
-    "lint": "vue-cli-service lint",
+    "lint": "eslint --ext .js,.vue src",
     "lint-fix": "vue-cli-service lint --fix",
     "serve": "vue-cli-service serve --open",
     "dev": "npm run serve"

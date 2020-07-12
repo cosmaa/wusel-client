@@ -1,28 +1,28 @@
 <template>
   <card class="card-user">
     <div slot="image">
-      <img src="@/assets/img/background.jpg" alt="...">
+      <img src="@/assets/img/graph.jpg" alt="...">
     </div>
     <div>
       <div class="author">
-        <img class="avatar border-white" src="@/assets/img/stani.jpg" alt="...">
-        <h4 class="title">Chet Faker
+        <img class="avatar" src="@/assets/img/graph-db-logo.png" alt="...">
+        <h4 class="title">
           <br>
-          <a href="#">
-            <small>@chetfaker</small>
+          <a  href="https://github.com/cosmaa" target="_blank">
+            <span class="rainbow">@github</span>
           </a>
         </h4>
       </div>
-      <p class="description text-center">
-        "I like the way you work it
-        <br> No diggity
-        <br> I wanna bag it up"
+      <p class="description text-center" >
+        "I like to experiment with
+        <br>graph database -
+        <br> any hints?"
       </p>
     </div>
     <hr>
     <div class="text-center">
-      <div class="row">
-        <div v-for="(info, index) in details" :key="index" :class="getClasses(index)">
+      <div class="row" style="justify-content: center;">
+        <div v-for="(info, index) in details" :key="index">
           <h5>{{info.title}}
             <br>
             <small>{{info.subTitle}}</small>
@@ -38,17 +38,9 @@ export default {
     return {
       details: [
         {
-          title: "12",
-          subTitle: "Files"
+          title: "Neo4J",
+          subTitle: "GraphDatabase"
         },
-        {
-          title: "2GB",
-          subTitle: "Used"
-        },
-        {
-          title: "24,6$",
-          subTitle: "Spent"
-        }
       ]
     };
   },
