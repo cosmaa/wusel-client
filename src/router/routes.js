@@ -7,10 +7,11 @@ import Notifications from "@/pages/Notifications.vue";
 import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Typography from "@/pages/Typography.vue";
-import TableList from "@/pages/TableList.vue";
 import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
 import Projects from "../pages/Projects";
+import Ping from "../layout/Ping";
+import TaskList from "../pages/TaskList";
 
 const routes = [
   {
@@ -19,52 +20,50 @@ const routes = [
     redirect: "/hello",
     children: [
       {
+        path: "/ping",
+        name: "Ping",
+        component: Ping
+      },
+      {
         path: "hello",
         name: "Hello",
-        component: Hello,
-        icon: "ti-rocket"
+        component: Hello
       },
+
       {
         path: "impressum",
         name: "Impressum",
-        component: Impressum,
-        icon: "ti-rocket"
+        component: Impressum
       },
       {
         path: "projects",
         name: "Projects",
-        component: Projects,
-        icon: "ti-rocket"
+        component: Projects
       },
       {
         path: "notifications",
         name: "notifications",
-        component: Notifications,
-        icon: "ti-rocket"
+        component: Notifications
       },
       {
         path: "icons",
         name: "icons",
-        component: Icons,
-        icon: "ti-rocket"
+        component: Icons
       },
       {
         path: "maps",
         name: "maps",
-        component: Maps,
-        icon: "ti-rocket"
+        component: Maps
       },
       {
         path: "typography",
         name: "typography",
-        component: Typography,
-        icon: "ti-rocket"
+        component: Typography
       },
       {
-        path: "todos",
-        name: "todos",
-        component: TableList,
-        icon: "ti-rocket"
+        path: "tasks",
+        name: "tasks",
+        component: TaskList
       }
     ]
   },

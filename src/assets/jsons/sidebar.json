@@ -13,9 +13,9 @@
       "hide": false
     },
     {
-      "to": "/todos",
+      "to": "/tasks",
       "icon": "ti-view-list-alt",
-      "name": "Todo List",
+      "name": "Task List",
       "hide": false
     },
     {
