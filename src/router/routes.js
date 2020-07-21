@@ -1,17 +1,19 @@
 import DashboardLayout from "@/layout/dashboard/DashboardLayout.vue";
 // GeneralViews
-import NotFound from "@/pages/NotFoundPage.vue";
+import NotFound from "@/pages/in_activ/NotFoundPage.vue";
 
 // Admin pages
-import Notifications from "@/pages/Notifications.vue";
-import Icons from "@/pages/Icons.vue";
+import Notifications from "@/pages/in_activ/Notifications.vue";
+import Icons from "@/pages/in_activ/Icons.vue";
 import Maps from "@/pages/Maps.vue";
-import Typography from "@/pages/Typography.vue";
+import Typography from "@/pages/in_activ/Typography.vue";
 import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
 import Projects from "../pages/Projects";
 import Ping from "../layout/Ping";
 import TaskList from "../pages/TaskList";
+import Movies from "../pages/Movies";
+import Bachelor from "../pages/Bachelor";
 
 const routes = [
   {
@@ -29,7 +31,16 @@ const routes = [
         name: "Hello",
         component: Hello
       },
-
+      {
+        path: "bachelor",
+        name: "Bachelor",
+        component: Bachelor
+      },
+      {
+        path: "movies",
+        name: "Movies (Gaph-Database-Testing Area)",
+        component: Movies
+      },
       {
         path: "impressum",
         name: "Impressum",

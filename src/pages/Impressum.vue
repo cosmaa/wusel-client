@@ -73,7 +73,7 @@
 
 </template>
 <script>
-import UserCard from "./ProjectCards/ProjectCard.vue";
+import UserCard from "../components/ProjectCards/ProjectCard.vue";
 export default {
   components: {
     UserCard,

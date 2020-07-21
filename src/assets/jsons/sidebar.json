@@ -13,6 +13,18 @@
       "hide": false
     },
     {
+      "to": "/movies",
+      "icon": "ti-desktop",
+      "name": "Movies",
+      "hide": false
+    },
+    {
+      "to": "/bachelor",
+      "icon": "ti-pencil",
+      "name": "Bachelor",
+      "hide": false
+    },
+    {
       "to": "/tasks",
       "icon": "ti-view-list-alt",
       "name": "Task List",
