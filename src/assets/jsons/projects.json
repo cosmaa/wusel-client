@@ -1,0 +1,46 @@
+{
+  "cards": [
+    {
+      "title": "HELLO-WUSEL",
+      "sub_title": "System - Administration",
+      "text": "A Project to learn developing and deploying",
+      "pic": "wusel-landing.jpg",
+      "logo": "stani.jpg"
+    },
+    {
+      "title": "Backend",
+      "sub_title": "import FLASK from Python",
+      "text": "Singlepage-APP with flask Backend And GraphDatabase",
+      "pic": "singelpage-backend-neo4j.jpg",
+      "logo": "python-logo.png"
+    },
+    {
+      "title": "FRONTEND",
+      "sub_title": "VUEJS",
+      "text": "Single Page Application ... dist in wusel-Landing",
+      "pic": "wusel-client-vue.jpg",
+      "logo": "vue-logo.png"
+    },
+    {
+      "title": "PORTAINER",
+      "sub_title": "Managing my Container",
+      "text": "How to handel my Terminal/Container-Harbour easily",
+      "pic": "treafik_portainer.jpg",
+      "logo": "portainer-logo.png"
+    },
+    {
+      "title": "Reverse-Proxy",
+      "sub_title": "to Server",
+      "text": "how to handel the ssl certificats and manage traffic on wusel.space",
+      "pic": "treafik_portainer.jpg",
+      "logo": "traefik-logo.png"
+    },
+    {
+      "title": "Neo4J",
+      "sub_title": "GraphDatabase",
+      "text": " I like to experiment with graph database any hints?",
+      "pic": "Graph-Schema.jpg",
+      "logo": "neo4j_logo.png"
+    }
+  ]
+}

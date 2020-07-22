@@ -1,14 +1,11 @@
 <template>
-  <div class="movies" style="background-color: aquamarine;padding: 5px; margin: 10px;">
-      <svg viewBox="0 0 300 300" style="background-color: white">
-        <g x="100px">
-          <circle r="50px"  cx="100px" cy="100px"  fill="orange"></circle>
-          <text class="label" x="100px" y="100px" > text</text>
-
-        </g>
-
-
-      </svg>
+  <div class="bachelor" style="background-color: rgba(205,0,252,0.36);padding: 10px;">
+    <svg viewBox="0 0 100 100" style="background-color: white">
+      <g x="100px">
+        <circle r="10px"  cx="50px" cy="50px"   fill="orange"></circle>
+        <text class="label" x="50px" y="50px" >todo</text>
+      </g>
+    </svg>
   </div>
 </template>
 
