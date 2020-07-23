@@ -18,7 +18,7 @@
             <a href="#" class="nav-link">
               <i class="ti-settings"></i>
               <p>
-                stizzels
+                STIZZELS
               </p>
             </a>
           </li>

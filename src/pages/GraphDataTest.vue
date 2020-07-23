@@ -1,5 +1,5 @@
 <template>
-  <div class="movies" style="background-color: rgba(205,0,252,0.36)">
+  <div style="background-color: rgba(205,0,252,0.36)">
     <div class="title">
       <a href="https://neo4j.com/developer/example-project/">Data Example Movies</a>
       <!-- example control -->
@@ -20,7 +20,7 @@
 
 
   export default {
-    name: "Movies",
+    name: "GraphDataTest",
     components: {
       D3Network
     },
@@ -40,7 +40,7 @@
         links: [
           { sid: 1, tid: 2 },
           { sid: 2, tid: 8 },
-          { sid: 3, tid: 4,  _svgAttrs:{'stroke-width':8, '_color': 'orange'},name:'custom link' },
+          { sid: 3, tid: 4,  _svgAttrs:{'stroke-width':8, 'color': 'orange'},name:'custom link' },
           { sid: 4, tid: 5 },
           { sid: 5, tid: 6 },
           { sid: 7, tid: 8 },

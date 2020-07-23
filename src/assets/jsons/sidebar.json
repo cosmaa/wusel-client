@@ -13,9 +13,9 @@
       "hide": false
     },
     {
-      "to": "/movies",
-      "icon": "ti-desktop",
-      "name": "Movies",
+      "to": "/graph",
+      "icon": "ti-sharethis",
+      "name": "Graph-Data-Tests",
       "hide": false
     },
     {
@@ -28,12 +28,6 @@
       "to": "/tasks",
       "icon": "ti-view-list-alt",
       "name": "Task List",
-      "hide": false
-    },
-    {
-      "to": "/maps",
-      "icon": "ti-map",
-      "name": "Map",
       "hide": false
     }
   ],
@@ -55,6 +49,12 @@
       "icon": "ti-text",
       "name": "Typography",
       "hide": true
+    },
+    {
+      "to": "/maps",
+      "icon": "ti-map",
+      "name": "Map",
+      "hide": false
     }
   ]
 }

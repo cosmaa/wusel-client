@@ -12,8 +12,8 @@ import Hello from "@/pages/Hello";
 import Projects from "../pages/Projects";
 import Ping from "../layout/Ping";
 import TaskList from "../pages/TaskList";
-import Movies from "../pages/Movies";
 import Bachelor from "../pages/Bachelor";
+import GraphDataTest from "../pages/GraphDataTest";
 
 const routes = [
   {
@@ -27,52 +27,59 @@ const routes = [
         component: Ping
       },
       {
-        path: "hello",
+        path: "/hello",
         name: "Hello",
         component: Hello
       },
       {
-        path: "bachelor",
+        path: "/bachelor",
         name: "Bachelor",
-        component: Bachelor
+        component: Bachelor,
+        children: [
+          {
+            path: "/expose",
+            name: "Exposé",
+            component: GraphDataTest
+          }
+        ]
       },
       {
-        path: "movies",
-        name: "Movies (Gaph-Database-Testing Area)",
-        component: Movies
+        path: "/graph",
+        name: "Gaph-Database-Testing Area",
+        component: GraphDataTest
       },
       {
-        path: "impressum",
+        path: "/impressum",
         name: "Impressum",
         component: Impressum
       },
       {
-        path: "projects",
+        path: "/projects",
         name: "Projects",
         component: Projects
       },
       {
-        path: "notifications",
+        path: "/notifications",
         name: "notifications",
         component: Notifications
       },
       {
-        path: "icons",
+        path: "/icons",
         name: "icons",
         component: Icons
       },
       {
-        path: "maps",
+        path: "/maps",
         name: "maps",
         component: Maps
       },
       {
-        path: "typography",
+        path: "/typography",
         name: "typography",
         component: Typography
       },
       {
-        path: "tasks",
+        path: "/tasks",
         name: "tasks",
         component: TaskList
       }

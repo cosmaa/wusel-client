@@ -17,6 +17,11 @@ module.exports = {
       .rule("vue")
       .use("vue-loader")
       .tap(options => {});
+    config.module
+      .rule("pdf")
+      .test(/\.pdf$/)
+      .use("file-loader")
+      .loader("file-loader");
   },
   configureWebpack: config => {
     // Copy data directory into build
