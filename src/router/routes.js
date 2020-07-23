@@ -5,7 +5,7 @@ import NotFound from "@/pages/in_activ/NotFoundPage.vue";
 // Admin pages
 import Notifications from "@/pages/in_activ/Notifications.vue";
 import Icons from "@/pages/in_activ/Icons.vue";
-import Maps from "@/pages/Maps.vue";
+import Maps from "@/pages/in_activ/Maps.vue";
 import Typography from "@/pages/in_activ/Typography.vue";
 import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
