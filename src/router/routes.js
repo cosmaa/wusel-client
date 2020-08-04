@@ -14,6 +14,7 @@ import Ping from "../layout/Ping";
 import TaskList from "../pages/TaskList";
 import Bachelor from "../pages/Bachelor";
 import GraphDataTest from "../pages/GraphDataTest";
+import Kanban from "../pages/Kanban";
 
 const routes = [
   {
@@ -27,21 +28,19 @@ const routes = [
         component: Ping
       },
       {
+        path: "/kanban",
+        name: "Bachelor Tasks",
+        component: Kanban
+      },
+      {
         path: "/hello",
         name: "Hello",
         component: Hello
       },
       {
         path: "/bachelor",
-        name: "Bachelor",
-        component: Bachelor,
-        children: [
-          {
-            path: "/expose",
-            name: "Exposé",
-            component: GraphDataTest
-          }
-        ]
+        name: "Bachelor-Kladde",
+        component: Bachelor
       },
       {
         path: "/graph",

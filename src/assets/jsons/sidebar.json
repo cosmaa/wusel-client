@@ -21,17 +21,23 @@
     {
       "to": "/bachelor",
       "icon": "ti-pencil",
-      "name": "Bachelor",
+      "name": "Bachelor Kladde",
       "hide": false
     },
+    {
+      "to": "/kanban",
+      "icon": "ti-trello",
+      "name": "Bachelor Tasks",
+      "hide": false
+    }
+  ],
+  "not_used": [
     {
       "to": "/tasks",
       "icon": "ti-view-list-alt",
       "name": "Task List",
       "hide": false
-    }
-  ],
-  "not_used": [
+    },
     {
       "to": "/icons",
       "icon": "ti-pencil-alt2",
