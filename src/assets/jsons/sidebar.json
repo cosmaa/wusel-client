@@ -7,6 +7,12 @@
       "hide": false
     },
     {
+      "to": "/wuselkanban",
+      "icon": "ti-brush-alt",
+      "name": "Wusel Tasks",
+      "hide": false
+    },
+    {
       "to": "/projects",
       "icon": "ti-rocket",
       "name": "Projects",
@@ -33,12 +39,6 @@
   ],
   "not_used": [
     {
-      "to": "/tasks",
-      "icon": "ti-view-list-alt",
-      "name": "Task List",
-      "hide": false
-    },
-    {
       "to": "/icons",
       "icon": "ti-pencil-alt2",
       "name": "Icons",
@@ -49,6 +49,12 @@
       "icon": "ti-bell",
       "name": "Notifications",
       "hide": true
+    },
+    {
+      "to": "/tasks",
+      "icon": "ti-view-list-alt",
+      "name": "Task List",
+      "hide": false
     },
     {
       "to": "/typography",

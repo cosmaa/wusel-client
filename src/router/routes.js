@@ -11,10 +11,11 @@ import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
 import Projects from "../pages/Projects";
 import Ping from "../layout/Ping";
-import TaskList from "../pages/TaskList";
+import TaskList from "../pages/in_activ/TaskList";
 import Bachelor from "../pages/Bachelor";
 import GraphDataTest from "../pages/GraphDataTest";
-import Kanban from "../pages/Kanban";
+import Kanban from "../pages/BachelorKanban";
+import WuselKanban from "../pages/WuselKanban";
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
         path: "/kanban",
         name: "Bachelor Tasks",
         component: Kanban
+      },
+      {
+        path: "/wuselkanban",
+        name: "Wusel Tasks",
+        component: WuselKanban
       },
       {
         path: "/hello",
