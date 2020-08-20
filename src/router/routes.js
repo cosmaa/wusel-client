@@ -9,13 +9,11 @@ import Maps from "@/pages/in_activ/Maps.vue";
 import Typography from "@/pages/in_activ/Typography.vue";
 import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
-import Projects from "../pages/Projects";
 import Ping from "../layout/Ping";
 import TaskList from "../pages/in_activ/TaskList";
 import Bachelor from "../pages/Bachelor";
 import GraphDataTest from "../pages/GraphDataTest";
-import Kanban from "../pages/BachelorKanban";
-import WuselKanban from "../pages/WuselKanban";
+import Wusel from "../pages/Wusel";
 
 const routes = [
   {
@@ -29,14 +27,9 @@ const routes = [
         component: Ping
       },
       {
-        path: "/kanban",
-        name: "Bachelor Tasks",
-        component: Kanban
-      },
-      {
-        path: "/wuselkanban",
-        name: "Wusel Tasks",
-        component: WuselKanban
+        path: "/wusel",
+        name: "Wusel",
+        component: Wusel
       },
       {
         path: "/hello",
@@ -45,7 +38,7 @@ const routes = [
       },
       {
         path: "/bachelor",
-        name: "Bachelor-Kladde",
+        name: "Bachelor",
         component: Bachelor
       },
       {
@@ -57,11 +50,6 @@ const routes = [
         path: "/impressum",
         name: "Impressum",
         component: Impressum
-      },
-      {
-        path: "/projects",
-        name: "Projects",
-        component: Projects
       },
       {
         path: "/notifications",

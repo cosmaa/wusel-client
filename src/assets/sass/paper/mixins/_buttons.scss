@@ -1,8 +1,8 @@
 // Mixin for generating new styles
 @mixin btn-styles($btn-color, $btn-states-color) {
   background-color: $btn-color;
-  border-color: $btn-color;
-  color: $white-color;
+  border-color: $my_pink_trans;
+  color: $my_pink;
   @include opacity(1);
 
   &:hover,
@@ -11,7 +11,7 @@
   &.active,
   .show > &.dropdown-toggle{
     background-color: $btn-states-color;
-    color: $white-color;
+    color: $my_pink;
     border-color: $btn-states-color;
   }
 

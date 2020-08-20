@@ -1,8 +1,9 @@
 <template>
-  <div >
+  <div>
     <button style="margin-bottom: 5px;" class="btn" @click="selected = !selected">go to {{select}}</button>
-    <Kladde v-if="selected"></Kladde>
-    <Kanban v-if="!selected"  trello_url="https://trello.com/b/yUV8xkgt" />
+
+    <Kanban  v-if="selected" trello_url="https://trello.com/b/NrpltHi8"/>
+    <Projects v-if="!selected" ></Projects>
   </div>
 
 
@@ -10,13 +11,13 @@
 
 <script>
 
-  import Kladde from "./bachelor/Kladde";
   import Kanban from "../components/Kanban";
+  import Projects from "./wusel/Projects";
   export default {
-    name: "Bachelor",
+    name: "Wusel",
     components: {
-      Kanban,
-      Kladde
+      Projects,
+      Kanban
     },
     data() {
       return {
@@ -25,13 +26,13 @@
     },
     computed: {
       select(){
-        return this.selected ? 'Kanban' : 'Kladde'
+        return this.selected ? 'Projects' : 'Kanban'
       }
     }
   }
 </script>
 
-<style lang="scss" >
+<style scoped>
 
 
 </style>

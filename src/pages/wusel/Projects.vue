@@ -7,7 +7,7 @@
 </template>
 <script>
 import json from "@/assets/jsons/projects.json";
-import ProjectCard from "../components/Cards/ProjectCard";
+import ProjectCard from "../../components/Cards/ProjectCard";
 
 export default {
   components: {

@@ -3,20 +3,12 @@
     {
       "to": "/hello",
       "icon": "ti-crown",
-      "name": "Hello",
-      "hide": false
+      "name": "Hello"
     },
     {
-      "to": "/wuselkanban",
+      "to": "/wusel",
       "icon": "ti-brush-alt",
-      "name": "Wusel Tasks",
-      "hide": false
-    },
-    {
-      "to": "/projects",
-      "icon": "ti-rocket",
-      "name": "Projects",
-      "hide": false
+      "name": "Wusel"
     },
     {
       "to": "/graph",
@@ -27,13 +19,7 @@
     {
       "to": "/bachelor",
       "icon": "ti-pencil",
-      "name": "Bachelor Kladde",
-      "hide": false
-    },
-    {
-      "to": "/kanban",
-      "icon": "ti-trello",
-      "name": "Bachelor Tasks",
+      "name": "Bachelor",
       "hide": false
     }
   ],
