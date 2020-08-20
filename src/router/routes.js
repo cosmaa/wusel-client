@@ -9,7 +9,7 @@ import Maps from "@/pages/in_activ/Maps.vue";
 import Typography from "@/pages/in_activ/Typography.vue";
 import Impressum from "@/pages/Impressum";
 import Hello from "@/pages/Hello";
-import Ping from "../layout/Ping";
+import Ping from "../pages/in_activ/Ping";
 import TaskList from "../pages/in_activ/TaskList";
 import Bachelor from "../pages/Bachelor";
 import GraphDataTest from "../pages/GraphDataTest";

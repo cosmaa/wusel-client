@@ -6,7 +6,6 @@
 
 <script>
     export default {
-        name: "Kanban",
       props: {
           trello_url: {type: String, required: true, default: "https://trello.com/b/NrpltHi8"}
       }

@@ -1,31 +1,23 @@
 <template>
   <div >
-    <button style="margin-bottom: 5px;" class="btn" @click="selected = !selected">go to {{select}}</button>
-    <Kladde v-if="selected"></Kladde>
-    <Kanban v-if="!selected"  trello_url="https://trello.com/b/yUV8xkgt" />
+    <button style="margin-bottom: 5px;" class="btn" @click="component = 'kladde'">Kladde</button>
+    <button style="margin-bottom: 5px;" class="btn" @click="component = 'kanban'">Tasks</button>
+    <component :is="component"></component>
   </div>
-
-
 </template>
 
 <script>
 
-  import Kladde from "./bachelor/Kladde";
-  import Kanban from "../components/Kanban";
+  import Kladde from "./content/bachelor/Kladde";
+  import BachelorKanban from "./content/bachelor/BachelorKanban";
   export default {
-    name: "Bachelor",
     components: {
-      Kanban,
-      Kladde
+      'kanban':BachelorKanban,
+      'kladde':Kladde
     },
     data() {
       return {
-        selected: true
-      }
-    },
-    computed: {
-      select(){
-        return this.selected ? 'Kanban' : 'Kladde'
+        component: 'kladde'
       }
     }
   }

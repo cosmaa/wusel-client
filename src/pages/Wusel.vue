@@ -1,9 +1,8 @@
 <template>
   <div>
-    <button style="margin-bottom: 5px;" class="btn" @click="selected = !selected">go to {{select}}</button>
-
-    <Kanban  v-if="selected" trello_url="https://trello.com/b/NrpltHi8"/>
-    <Projects v-if="!selected" ></Projects>
+    <button style="margin-bottom: 5px;" class="btn" @click="component = 'kanban'">Tasks</button>
+    <button style="margin-bottom: 5px;" class="btn" @click="component = 'projects'">Projects</button>
+    <component :is="component"></component>
   </div>
 
 
@@ -11,22 +10,18 @@
 
 <script>
 
-  import Kanban from "../components/Kanban";
-  import Projects from "./wusel/Projects";
+  import Kanban from "./content/wusel/Kanban";
+  import Projects from "./content/wusel/Projects";
+
   export default {
     name: "Wusel",
     components: {
-      Projects,
-      Kanban
+      'projects':Projects,
+      'kanban': Kanban
     },
     data() {
       return {
-        selected: true
-      }
-    },
-    computed: {
-      select(){
-        return this.selected ? 'Projects' : 'Kanban'
+        component: 'kanban'
       }
     }
   }
