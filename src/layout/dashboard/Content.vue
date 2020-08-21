@@ -1,10 +1,13 @@
 <template>
   <div class="content">
     <div class="container-fluid">
-        <transition name="fade" mode="out-in">
-          <!-- your content here -->
-          <router-view></router-view>
-        </transition>
+      <transition
+        mode="out-in"
+        enter-active-class="animate__animated animate__fadeIn"
+        leave-active-class="animate__animated animate__fadeOut"
+      >
+        <router-view />
+      </transition>
     </div>
   </div>
 </template>

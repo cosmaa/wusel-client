@@ -1,7 +1,10 @@
 <template>
   <div>
-    <button style="margin-bottom: 5px;" class="btn" @click="component = 'kanban'">Tasks</button>
-    <button style="margin-bottom: 5px;" class="btn" @click="component = 'projects'">Projects</button>
+    <div>
+      <button style="margin-bottom: 5px;" class="btn" @click="component = 'projects'">Projects</button>
+      <button style="margin-bottom: 5px;" class="btn" @click="component = 'kanban'">Tasks</button>
+      <button style="margin-bottom: 5px;" class="btn" @click="component = 'videos'">Videos</button>
+    </div>
     <component :is="component"></component>
   </div>
 
@@ -12,16 +15,17 @@
 
   import Kanban from "./content/wusel/Kanban";
   import Projects from "./content/wusel/Projects";
+  import Videos from "./content/wusel/Videos";
 
   export default {
-    name: "Wusel",
     components: {
       'projects':Projects,
-      'kanban': Kanban
+      'kanban': Kanban,
+      'videos': Videos
     },
     data() {
       return {
-        component: 'kanban'
+        component: 'projects'
       }
     }
   }

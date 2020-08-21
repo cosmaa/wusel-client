@@ -20,7 +20,6 @@
 
 
   export default {
-    name: "GraphDataTest",
     components: {
       D3Network
     },

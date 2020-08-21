@@ -3,6 +3,9 @@
     <div class="card-image" v-if="$slots.image">
       <slot name="image"></slot>
     </div>
+    <div class="card-video" v-if="$slots.video">
+      <slot name="video"></slot>
+    </div>
     <div class="card-header" v-if="$slots.header || title">
       <slot name="header">
         <h4 class="card-title">{{title}}</h4>

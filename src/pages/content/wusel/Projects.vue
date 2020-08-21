@@ -1,6 +1,6 @@
 <template>
-    <div class="row"  >
-      <div class="col-xl-4 col-lg-5 col-md-6" v-for="(card, index) in cards" :key="index">
+    <div class="row" >
+      <div class="col-xl-4 col-lg-5 col-md-6" v-for="(card, index) in cards" :key="index" style="padding: 0;">
         <ProjectCard :text="card.text" :logo="card.logo" :pic="card.pic" :title="card.title" :sub_title="card.sub_title"/>
       </div>
     </div>

@@ -12,8 +12,8 @@
   import BachelorKanban from "./content/bachelor/BachelorKanban";
   export default {
     components: {
-      'kanban':BachelorKanban,
-      'kladde':Kladde
+      'kanban': BachelorKanban,
+      'kladde': Kladde
     },
     data() {
       return {
