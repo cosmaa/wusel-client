@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: rgba(205,0,252,0.36)">
+  <div style="background-color: white;">
     <div class="title">
       <a href="https://neo4j.com/developer/example-project/">Data Example Movies</a>
       <!-- example control -->

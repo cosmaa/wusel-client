@@ -1,9 +1,9 @@
 <template>
-  <div class="row" style="justify-content: center; margin: 2px;">
-    <div class="col-xl-9 col-lg-12 col-md-12">
+  <div class="row" style="justify-content: center;">
+    <div class="col-xl-12 col-lg-12">
       <div class="card" style="text-align: center; background: none;" >
         <a href="https://docs.google.com/document/d/1AXiVFvJ0Ayt35W0z6HFHCe35vEEPpPtVSX6nYya5V2s/edit?usp=sharing">
-          <span class="rainbow" style="font-size: 30px; ">Feedback? <i class="ti-comment"></i></span>
+          <span class="rainbow" style="font-size: 30px; ">Feedback? <i class="ti-comment"/></span>
         </a>
         <p class="my_paragraph" >
           Hier entsteht live meine Bachelor-Kladde. <br>
@@ -24,7 +24,6 @@
 
 <style scoped>
   .card {
-    margin: 5px;
     padding: 0;
     width: 100%;
   }
