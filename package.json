@@ -11,8 +11,9 @@
     "dev": "npm run serve"
   },
   "dependencies": {
+    "@wusel/knowledge-graph-client": "^0.1.13",
     "animate.css": "^4.1.0",
-    "axios": "0.18.1",
+    "axios": "^0.18.1",
     "bootstrap": "^4.0.0",
     "chartist": "^0.11.0",
     "d3": "^5.12.0",
@@ -31,11 +32,14 @@
     "@vue/cli-service": "^3.10.0",
     "@vue/eslint-config-prettier": "^5.0.0",
     "node-sass": "^4.8.3",
+    "raw-loader": "^0.5.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "sass-loader": "^6.0.7",
     "vue-template-compiler": "^2.6.10"
   },
   "description": "a Webapp for learning developing software ",
-  "author": "constanze.maass",
+  "author": "cosmaa",
   "engines": {
     "node": ">= 8.1.4",
     "npm": ">= 5.0.0"

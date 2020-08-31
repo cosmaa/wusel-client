@@ -12,7 +12,7 @@ import Hello from "@/pages/Hello";
 import Ping from "../pages/in_activ/Ping";
 import TaskList from "../pages/in_activ/TaskList";
 import Bachelor from "../pages/Bachelor";
-import GraphDataTest from "../pages/GraphDataTest";
+import Graph from "../pages/Graph";
 import Wusel from "../pages/Wusel";
 
 const routes = [
@@ -43,8 +43,8 @@ const routes = [
       },
       {
         path: "/graph",
-        name: "Gaph-Database-Testing Area",
-        component: GraphDataTest
+        name: "ist nich geeignet für mobil-ansicht ",
+        component: Graph
       },
       {
         path: "/impressum",
