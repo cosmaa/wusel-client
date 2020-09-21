@@ -2,6 +2,7 @@
   <div >
     <button style="margin-bottom: 5px;" class="btn" @click="component = 'kladde'">Kladde</button>
     <button style="margin-bottom: 5px;" class="btn" @click="component = 'kanban'">Tasks</button>
+    <a style="margin-bottom: 5px;" class="btn" href="https://bachelor.wusel.space/" target="_blank">DEMO KG-APP</a>
     <transition
       mode="out-in"
       enter-active-class="animate__animated animate__fadeIn"
